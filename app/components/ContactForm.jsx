@@ -28,7 +28,7 @@ export default function ContactForm() {
   return (
     <section id="contact" className="w-full bg-gray-100 py-20 px-6 md:px-12">
       <div className="max-w-xl mx-auto text-center">
-        <h2 className="text-3xl font-display uppercase text-primary mb-6">
+        <h2 className="text-3xl font-display uppercase text-gray-700 mb-6">
           Contact Us
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4 text-left">

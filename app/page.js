@@ -73,7 +73,7 @@ export default function Home() {
       {/* Programs Section */}
       <section id="programs" className="w-full bg-gray-100 py-20 px-6 md:px-12 text-center">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-display uppercase text-primary mb-12 tracking-wide">
+          <h2 className="text-3xl sm:text-4xl font-display uppercase text-gray-700 mb-12 tracking-wide">
             What We Offer
           </h2>
 
