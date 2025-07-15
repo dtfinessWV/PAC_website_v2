@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
+  const [form, setForm] = useState({ lname: "", fname: "", email: "", phone: "", message: "" });
   const [status, setStatus] = useState("idle");
 
   const handleChange = (e) => {
@@ -34,10 +34,19 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-4 text-left">
           <input
             type="text"
-            name="name"
-            placeholder="Your Name"
+            name="lname"
+            placeholder="Your Last Name"
             required
-            value={form.name}
+            value={form.lname}
+            onChange={handleChange}
+            className="w-full px-4 py-3 border rounded"
+          />
+          <input
+            type="text"
+            name="fname"
+            placeholder="Your First Name"
+            required
+            value={form.fname}
             onChange={handleChange}
             className="w-full px-4 py-3 border rounded"
           />
