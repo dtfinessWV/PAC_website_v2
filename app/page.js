@@ -80,7 +80,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
             {/* CrossFit */}
-            <Link href="#crossfit">
+            <Link href="#plans">
               <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group cursor-pointer">
                 <Dumbbell className="mx-auto text-primary mb-4 h-8 w-8 group-hover:scale-110 transition" />
                 <h3 className="text-xl font-display uppercase text-primary mb-2">CrossFit</h3>
@@ -91,15 +91,22 @@ export default function Home() {
             </Link>
 
             {/* Foundations */}
-            <Link href="#foundations">
-              <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group cursor-pointer">
+            {/* <Link href="#foundations"> */}
+            <div className="relative">
+              <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group opacity-60 pointer-events-none">
                 <GraduationCap className="mx-auto text-primary mb-4 h-8 w-8 group-hover:scale-110 transition" />
                 <h3 className="text-xl font-display uppercase text-primary mb-2">Foundations</h3>
                 <p className="text-gray-700 text-sm">
                   New to CrossFit? This is your on-ramp. Learn the movements, build confidence, and meet your coaches.
                 </p>
               </div>
-            </Link>
+              <div className="absolute inset-0 bg-black/70 rounded-lg flex items-center justify-center">
+                <span className="text-white text-lg font-display uppercase tracking-wide">
+                  Coming Soon
+                </span>
+              </div>
+              </div>
+            {/* </Link> */}
 
             {/* Access+ - Coming Soon */}
             <div className="relative">
@@ -118,7 +125,7 @@ export default function Home() {
             </div>
 
             {/* Drop-Ins */}
-            <Link href="#dropins">
+            <Link href="https://dtfitness.pushpress.com/landing/plans/plan_a78924fde92643" target="_blank" rel="noopener noreferrer">
               <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group cursor-pointer">
                 <MapPin className="mx-auto text-primary mb-4 h-8 w-8 group-hover:scale-110 transition" />
                 <h3 className="text-xl font-display uppercase text-primary mb-2">Drop-Ins</h3>
@@ -149,7 +156,7 @@ export default function Home() {
               We have got classes throughout the day to fit your lifestyle. Mornings, afternoons, and evenings — all coached, community-driven, and built to make you better.
             </p>
             <a
-              href="#contact"
+              href="#plans"
               className="inline-block px-6 py-3 bg-primary text-black font-semibold rounded-lg shadow hover:brightness-110 transition uppercase tracking-wide font-display"
             >
               Reserve Your Spot
@@ -157,7 +164,59 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Plans Section */}
+      <section id="plans" className="bg-black text-white py-20 px-4">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-8">Membership Plans</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* 10-Class Punchcard */}
+            <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">10-Class Punchcard</h3>
+              <p className="mb-6 text-gray-300">Perfect for drop-ins or those who want flexibility. Use any time within 6 months.</p>
+              <a
+                href="https://dtfitness.pushpress.com/landing/plans/plan_30eebc16db1830"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-300 transition"
+              >
+                Purchase Punchcard
+              </a>
+            </div>
+
+            {/* 8 Classes per Month */}
+            <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">8 Classes / Month</h3>
+              <p className="mb-6 text-gray-300">Ideal for those balancing a busy schedule but still committed to fitness.</p>
+              <a
+                href="https://dtfitness.pushpress.com/landing/plans/plan_7deb84a0efe745"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-300 transition"
+              >
+                Join Now
+              </a>
+            </div>
+
+            {/* Unlimited Plan */}
+            <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">Unlimited Access</h3>
+              <p className="mb-6 text-gray-300">For those who want full access to every class, every week — no limits.</p>
+              <a
+                href="https://dtfitness.pushpress.com/landing/plans/plan_ab8ac73549ca83"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-300 transition"
+              >
+                Go Unlimited
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ContactForm />
+
       <div style={{ width: '100%', height: '400px', marginTop: '2rem' }}>
         <iframe
           title="Power Alley CrossFit Map"

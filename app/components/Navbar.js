@@ -28,6 +28,7 @@ export default function Navbar() {
           <Link href="#about">About</Link>
           <Link href="#programs">Programs</Link>
           <Link href="#schedule">Schedule</Link>
+          <Link href="#plans">Plans</Link>
           <Link href="#contact">Contact</Link>
         </div>
       </nav>
