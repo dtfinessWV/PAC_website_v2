@@ -64,6 +64,7 @@ export default function ContactForm() {
             name="phone"
             value={form.phone}
             onChange={handleChange}
+            required
             placeholder="Phone Number (optional)"
             className="w-full px-4 py-3 border rounded"
           />
