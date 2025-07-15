@@ -158,6 +158,18 @@ export default function Home() {
         </div>
       </section>
       <ContactForm />
+      <div style={{ width: '100%', height: '400px', marginTop: '2rem' }}>
+        <iframe
+          title="Power Alley CrossFit Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.0032345280056!2d-80.23644548464772!3d38.99148407955867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8849e9f2c8fc6349%3A0x8b7d616159528103!2s6%20Traders%20Alley%2C%20Buckhannon%2C%20WV%2026201!5e0!3m2!1sen!2sus!4v1689270905785!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
 
     </main>
   )
