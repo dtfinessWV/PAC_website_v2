@@ -37,7 +37,7 @@ export default function Home() {
             A gym for everyone — wherever you are starting.
           </p>
           <a
-            href="#contact"
+            href="#plans"
             className="mt-6 inline-block px-6 py-3 bg-white text-black font-semibold rounded-lg shadow hover:bg-gray-200 transition font-display tracking-wider uppercase"
           >
             Join a Class Today
