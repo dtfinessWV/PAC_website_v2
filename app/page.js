@@ -173,7 +173,7 @@ export default function Home() {
             {/* 10-Class Punchcard */}
             <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
               <h3 className="text-2xl font-semibold mb-4">10-Class Punchcard</h3>
-              <p className="mb-6 text-gray-300">Perfect for drop-ins or those who want flexibility. Use any time within 6 months.</p>
+              <p className="mb-6 text-gray-300">Perfect for drop-ins or those who want flexibility. Use any time within a year.</p>
               <a
                 href="https://dtfitness.pushpress.com/landing/plans/plan_30eebc16db1830"
                 target="_blank"
