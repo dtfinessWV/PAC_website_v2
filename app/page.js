@@ -90,8 +90,8 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Foundations */}
-            {/* <Link href="#foundations"> */}
+            {/* Foundations - Hidden until available */}
+            {/* 
             <div className="relative">
               <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group opacity-60 pointer-events-none">
                 <GraduationCap className="mx-auto text-primary mb-4 h-8 w-8 group-hover:scale-110 transition" />
@@ -106,9 +106,10 @@ export default function Home() {
                 </span>
               </div>
               </div>
-            {/* </Link> */}
+            */}
 
-            {/* Access+ - Coming Soon */}
+            {/* Access+ - Hidden until available */}
+            {/*
             <div className="relative">
               <div className="bg-white p-6 rounded-lg shadow hover:shadow-xl transition group opacity-60 pointer-events-none">
                 <Clock className="mx-auto text-primary mb-4 h-8 w-8 group-hover:scale-110 transition" />
@@ -123,6 +124,7 @@ export default function Home() {
                 </span>
               </div>
             </div>
+            */}
 
             {/* Drop-Ins */}
             <Link href="https://dtfitness.pushpress.com/landing/plans/plan_a78924fde92643" target="_blank" rel="noopener noreferrer">
