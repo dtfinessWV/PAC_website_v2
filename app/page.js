@@ -155,7 +155,7 @@ export default function Home() {
               Class Schedule
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              We have got classes throughout the day to fit your lifestyle. Mornings, afternoons, and evenings — all coached, community-driven, and built to make you better.
+              We have classes throughout the day to fit your lifestyle. Mornings, afternoons, and evenings — all coached, community-driven, and built to make you better.
             </p>
             <a
               href="#plans"
