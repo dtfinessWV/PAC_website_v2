@@ -171,7 +171,7 @@ export default function Home() {
       <section id="plans" className="bg-black text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Membership Plans</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* 10-Class Punchcard */}
             <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
               <h3 className="text-2xl font-semibold mb-4">10-Class Punchcard</h3>
@@ -211,6 +211,20 @@ export default function Home() {
                 className="bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-300 transition"
               >
                 Go Unlimited
+              </a>
+            </div>
+
+            {/* Specialty Classes */}
+            <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-4">Specialty Classes</h3>
+              <p className="mb-6 text-gray-300">Specialized programming designed to target specific fitness goals and skill development.</p>
+              <a
+                href="https://dtfitness.pushpress.com/landing/plans"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-300 transition"
+              >
+                Learn More
               </a>
             </div>
           </div>
